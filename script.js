@@ -11,7 +11,7 @@ form.addEventListener('submit', e => {
         form.classList.add('error');
     } else{
         form.classList.remove('error');
-        document.body.innerHTML = 'Thank You!';
+        document.body.innerHTML = '<div style="display:flex; align-items: center; justify-content: center;"><h1>Obrigado por testar meu projeto</h1><h2>Desenvlvido por Cleison Silva</h2></div>';
     }
     
 });
