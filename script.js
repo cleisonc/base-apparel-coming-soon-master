@@ -9,12 +9,10 @@ form.addEventListener('submit', e => {
 
     if (!validateEmail(emailVal)){
         form.classList.add('error');
-        form.class.remove('success');
     } else{
         form.class.remove('error');
-        form.class.add('success');
+        document.body.innerHTML = 'Thank You!';
     }
-
     
 });
 
