@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
     if (!validateEmail(emailVal)){
         form.classList.add('error');
     } else{
-        form.class.remove('error');
+        form.classList.remove('error');
         document.body.innerHTML = 'Thank You!';
     }
     
