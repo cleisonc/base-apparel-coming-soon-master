@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-size: cover;
+    font-family: 'Josefin Sans' , sans-serif;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left{
+    padding: 0 40px 40px;
+    width: 60%;
+}
+
+.right{
+    width: 40%;
+}
+
+.bg-image{
+    background-image: url('./images/hero-desktop.jpg');
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.logo{
+    margin: 60px 0;
+    width: 200px;
+}
+
+.bg-mobile{
+    display: none;
+}
+
+h1{
+    line-height: 1.1;
+    color: hsl(0, 6%, 24%);
+    letter-spacing: 10px;
+    font-size: 60px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+h1 span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 200;
+}
+
+.Paragrafo{
+    color: hsl(0, 36%, 70%);
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+form{
+    position: relative;
+
+}
+
+form.error input{
+    border: 2px solid hsl(0, 93%, 68%);
+}
+
+form.success input{
+    border: 2px solid hsl(0, 36%, 70%);
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid hsl(0, 36%, 70%);
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    height: 55px;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px hsla(0, 36%, 70%, 0.5);
+}
+
+input ::placeholder{
+    color: hsl(0, 36%, 70%);
+}
+
+button{
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    border: none;
+    top: 0;
+    right: 0;
+    box-shadow: 2px 5px 10px hsla(0, 36%, 70%, 0.5);
+    border-radius: 50px;
+    transition: opacity 0.2s ease;
+    height: 55px;
+    width: 100px;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.error-icon{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 110px;
+}
+form.error .error-icon{
+    display: block;
+
+}
+
+small{
+    margin-top: 15px;
+    display: none;
+    margin-left: 30px;
+    color: hsl(0, 93%, 68%);
+}
+
+form.error small{
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    .logo{
+        margin: 30px 0;
+        width: 100x;
+    }
+
+    .bg-mobile{
+        display: block;
+        margin-left: -40px;
+        margin-right: -40px;
+        width: calc(100% + 80px);
+    }
+    h1{
+        font-size: 40px;
+    }
+    .left{
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    };
+}
