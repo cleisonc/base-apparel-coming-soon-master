@@ -8,4 +8,4 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 - Frontend Mentor - [@cleisonc](https://www.frontendmentor.io/profile/cleisonc)
 - Twitter - [@cleisoncarneiro](https://www.twitter.com/cleisoncarneiro)
-- LinkedIn - [@cleisoncarneiro](https://www.linkedin.com/in/cleison-carneiro-07a0aba0/)
+- LinkedIn - [@cleison-carneiro-07a0aba0](https://www.linkedin.com/in/cleison-carneiro-07a0aba0/)
