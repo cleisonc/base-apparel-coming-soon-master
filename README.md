@@ -6,9 +6,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## Author
 
-<div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="cleison-carneiro-07a0aba0" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/cleison-carneiro-07a0aba0?trk=profile-badge">Cleison Carneiro</a></div>
-              
-
 - Frontend Mentor - [@cleisonc](https://www.frontendmentor.io/profile/cleisonc)
 - Twitter - [@cleisoncarneiro](https://www.twitter.com/cleisoncarneiro)
 - LinkedIn - [@cleison-carneiro-07a0aba0](https://www.linkedin.com/in/cleison-carneiro-07a0aba0/)
